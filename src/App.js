@@ -1,25 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+//Todo:
+//1. Create Header
+//2. Decide on color scheme
+//3. Install font
+//4. Install icons
+//5. Research CSS animations?
+//6. Create components:
+//  a. Todo list element
+//  b. Todo List
+//  c.
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return <div className="App">Hello</div>;
 }
 
 export default App;
