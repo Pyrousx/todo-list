@@ -7,7 +7,6 @@
 //6. Create components:
 //  a. Todo list element
 //  b. Todo List
-//  c.
 
 function App() {
   return <div className="App">Hello</div>;
