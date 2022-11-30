@@ -8,8 +8,16 @@
 //  a. Todo list element
 //  b. Todo List
 
+import React from "react";
+import Header from "./components/Header";
+import List from "./components/List";
 function App() {
-  return <div className="App">Hello</div>;
+  return (
+    <div className="App">
+      <Header />
+      <List />
+    </div>
+  );
 }
 
 export default App;
